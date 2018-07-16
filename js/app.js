@@ -32,6 +32,11 @@ var app = angular.module('example359', []).
           controller: AboutCtrl,
           activetab: 'about'
         }).
+		when('/contact', {
+          templateUrl: 'pages/contact.html',
+          controller: ContactCtrl,
+          activetab: 'contact'
+        }).
         otherwise({ redirectTo: '/' });
     }]).run(['$rootScope', '$http', '$browser', '$timeout', "$route", function ($scope, $http, $browser, $timeout, $route) {
 
