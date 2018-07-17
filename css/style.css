@@ -97,7 +97,7 @@ header .logo {
   margin-top:1px;
 }
 header nav {
-  float:right;
+ /* float:right;*/
   margin-top:17px;
 }
 header nav ul {
